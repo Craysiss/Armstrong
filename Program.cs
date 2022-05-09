@@ -22,7 +22,9 @@ namespace Armstrong
 
         static void Main(string[] args)
         {
-            int nombre = 2;
+            int nombre;
+            Console.WriteLine("rentrez la valeur : ");
+            nombre = Convert.ToInt32(Console.ReadLine()); 
             Console.WriteLine(pop(nombre));
         }
     
